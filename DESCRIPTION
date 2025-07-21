@@ -1,0 +1,18 @@
+Package: animint2fr
+Type: Package
+Title: Données en Français Pour Animint2
+Version: 2025.7.21
+Authors@R: c(
+    person("Toby", "Hocking",
+     email="toby.hocking@r-project.org",
+     role=c("aut", "cre")))
+Description: Données pour la traduction en français du manuel pour animint2,
+ décrit dans Journal of Computational and 
+ Graphical Statistics,
+ <doi:10.1080/10618600.2018.1513367>.
+Depends: R (>= 3.5.0)
+Encoding: UTF-8
+License: GPL-3
+URL: https://github.com/animint/animint2fr
+BugReports: https://github.com/animint/animint2fr/issues
+
