@@ -2,12 +2,12 @@ data(WorldBank, package="animint2")
 BanqueMondiale <- WorldBank
 BanqueMondiale$Region <- sub(" \\(.*", "", BanqueMondiale$region)
 en2fr.region <- c(
-  "East Asia & Pacific"="Asie de l'est et pacifique",
+  "East Asia & Pacific"="Asie de l'Est et Pacifique",
   "Europe & Central Asia"="Europe et Asie centrale",
   "Latin America & Caribbean"="Amérique latine et Caraïbes",
-  "Middle East & North Africa"="Moyen orient et Magreb",
-  "North America"="Amérique du nord",
-  "South Asia"="Asie du sud",
+  "Middle East & North Africa"="Moyen-Orient et Afrique du Nord",
+  "North America"="Amérique du Nord",
+  "South Asia"="Asie du Sud",
   "Sub-Saharan Africa"="Afrique subsaharienne")
 BanqueMondiale$région <- factor(BanqueMondiale$Region, names(en2fr.region), en2fr.region)
 BanqueMondiale$espérance.de.vie <- BanqueMondiale$life.expectancy
