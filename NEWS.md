@@ -1,3 +1,7 @@
+## Modifications dans 2025.7.24
+
+- Pour CRAN.
+
 ## Modifications dans 2025.7.23
 
 - rajouter colonnes dans `BanqueMondiale` : `pays`, `PIB.par.habitant.USD`, `alphabétisation`, `revenu`.

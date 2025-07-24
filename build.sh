@@ -10,6 +10,9 @@ echo Copying $PKG to $RELEASE
 rm -rf $RELEASE
 cp -r $PKG $RELEASE
 
+echo Editing $RELEASE
+rm $RELEASE/inst/translate.R
+
 echo Building $RELEASE
 RCMD="R --vanilla CMD"
 $RCMD build $RELEASE | tee build.out
