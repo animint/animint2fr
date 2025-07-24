@@ -12,6 +12,9 @@ en2fr.region <- c(
 WorldBank$Region <- sub(" \\(.*", "", WorldBank$region)
 WorldBank$région <- factor(WorldBank$Region, names(en2fr.region), en2fr.region)
 WorldBank$année <- WorldBank$year
+WorldBank$pays <- WorldBank$country
 BanqueMondiale <- WorldBank
 save(BanqueMondiale, file="../data/BanqueMondiale.RData", compress="xz")
-prompt(BanqueMondiale, "../man/BanqueMondiale.Rd")
+if(FALSE){
+  prompt(BanqueMondiale, "../man/BanqueMondiale.Rd")
+}
