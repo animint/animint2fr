@@ -18,7 +18,7 @@
     \item{\code{espérance.de.vie}}{copie de \code{life.expectancy}}
     \item{\code{taux.de.fertilité}}{copie de \code{fertility.rate}}
     \item{\code{année}}{copie de \code{year}}
-    \item{\code{pays}}{copie de \code{country}}
+    \item{\code{pays}}{traduction de \code{country}}
     \item{\code{PIB.par.habitant.USD}}{copie de \code{GDP.per.capita.Current.USD}}
     \item{\code{alphabétisation}}{copie de \code{15.to.25.yr.female.literacy}}
     \item{\code{revenu}}{traduction de \code{income}}
