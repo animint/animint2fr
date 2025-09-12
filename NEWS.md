@@ -1,3 +1,7 @@
+## Modifications dans 2025.9.11
+
+- traduction des valeurs dans la colonne `pays`.
+
 ## Modifications dans 2025.7.24
 
 - Pour CRAN.

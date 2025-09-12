@@ -1,7 +1,7 @@
 Package: animint2fr
 Type: Package
 Title: Données en Français Pour Animint2 [data in French For Animint2]
-Version: 2025.7.24
+Version: 2025.9.11
 Authors@R: c(
     person("Toby", "Hocking",
      email="toby.hocking@r-project.org",
