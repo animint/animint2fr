@@ -1,0 +1,6 @@
+Données de la Banque mondiale
+
+Un package R à utiliser pour les démonstrations du package =animint2=
+
+- [[https://tdhock.github.io/2025-08-BanqueMondiale-facets-map/][Visualisation interactive]].
+- [[https://animint-manual-fr.netlify.app/][Manuel francophone pour animint2]].
